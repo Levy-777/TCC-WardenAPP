@@ -1,0 +1,100 @@
+.nav-item{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+#usuario{
+  margin-bottom: 0rem;
+}
+.navbar-img{
+  width: 1.5rem;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.navbar-logo{
+  width: 1.8rem;
+  margin: auto;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.out{
+  outline: 1px solid white;
+  border-radius: 0.5rem;
+}
+.bottom-btn{
+  width: 1000vw;
+  padding: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+  outline: none;
+}
+.bottom-btn:active {
+  border-style: outset;
+}
+.navbar-line{
+  width: 95%;
+}
+#bottombar{
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr 0.35fr 1fr 0.6fr;
+  color: white;
+}
+.nav-grid1 { 
+  grid-area: 1 / 1 / 2 / 6; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-grid2 { 
+  grid-area: 2 / 1 / 3 / 6; 
+}
+.nav-grid3 { 
+  grid-area: 3 / 1 / 4 / 6; 
+}
+.nav-grid4 { 
+  grid-area: 4 / 1 / 5 / 2; 
+}
+.nav-grid5 { 
+  grid-area: 4 / 2 / 5 / 3; 
+}
+.nav-grid6 { 
+  grid-area: 4 / 3 / 5 / 4; 
+}
+.nav-prev{
+  margin-bottom: 0px;
+}
+.nav-sub{
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(220, 220, 220);
+}
+.large{
+  font-size: 1.5rem;
+}
+.bg-brue{
+  background-color: rgb(35,100,175);
+}
+.off{
+  display: none;
+}
+.form-select{
+  width: 100%;
+}
+.navbar-btn{
+  background-color: transparent;
+  border-color: transparent;
+  color: transparent;
+  outline: none;
+}
+.navbar-btn:active {
+  border-style: outset;
+}
+.bottom-radius{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.top-radius{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

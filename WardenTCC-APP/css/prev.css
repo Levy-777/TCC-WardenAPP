@@ -1,0 +1,77 @@
+html,
+body{
+    min-height: 100vh;
+    background-color: #7eaaec !important;
+    background: linear-gradient(180deg, #67a9cf, #65a8d1, #60a3d4, #5f9dd9, #6396dc, #6d8ddd, #7787dd, #7b84dc);
+    background: -webkit-linear-gradient(-90deg, #67a9cf, #65a8d1, #60a3d4, #5f9dd9, #6396dc, #6d8ddd, #7787dd, #7b84dc);
+    background-attachment: fixed;
+    overflow-x:hidden;
+}
+.divPrev{
+    background-color: hsl(241deg 50% 50% / 20%);
+    width: 99%;
+    padding: 0rem;
+    margin: auto;
+    margin-top: 2%;
+    /*outline: 1px solid white;*/
+    border-radius: 20px;
+    opacity: 80%;
+    display: grid;
+    grid-template-columns: 15% 15% 35% 15% 20%;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 1rem;
+}
+p{
+    color:white;
+    opacity: 100%;
+    font-size: 2.8vw;
+    font-weight: bold;
+}
+.divBig{
+    background-color: hsl(0deg 0% 100% / 20%);
+    /*outline: 1px solid white;*/
+    width: 92%;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    opacity: 80%;
+}
+.icon{
+    opacity: 100%;
+    width: 100%;
+}
+.pHora{
+    margin-top: 50%;
+    margin: auto;
+}
+.cidadeEstado{
+    font-size: 0.9rem;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.form-select{
+    width: 100%;
+}
+.text-prev{
+    font-size: 0.8rem;
+}
+.outline-prev{
+    background-color: hsl(241deg 50% 50% / 20%);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+#prevCasa{
+    padding-bottom: 5px;
+}

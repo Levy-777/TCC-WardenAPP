@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap:; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src *; img-src * data: blob: android-webview-video-poster:; style-src * 'unsafe-inline';">
+        <allow-intent href="*" />
+        <access origin="*" />
+        <allow-navigation href="*" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link href='https://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+
+        <form id="formelog" method="post">
+            <div class="card position-absolute top-50 start-50 translate-middle">
+                <div class="card-body col-lg-auto">
+                    <h2 class="card-title text-center">Login</h2>
+                    <div class="mb-3">
+                        <label for="emailusuario" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="emailusuario" id="emailusuariol" placeholder="exemplo@email.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="senhausuario" class="form-label">Senha</label>
+                        <input type="password" class="form-control" name="senhausuario" id="senhausuariol" aria-describedby="passwordHelpBlock" placeholder="">
+                    </div>
+                    <div class="mb-4 align-self-center d-grid col-6 mx-auto">
+                        <button class="btn btn-primary w-auto mw-50" id="salve" type="submit">Logar</button>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <a href="cadastro.html">Ainda não possui conta? Registre-se!</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+        <script src="js/jQueryAJAX.js"></script>
+        <script src ="js/hype.js"></script>
+        <script src="js/loginAJAX.js"></script>
+       <script src="js/autologin.js"></script>
+        <script src="js/sqlite.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+<!--
+    <input name ="emailusuario" class="form-control" id="emailusuario" type="text">
+    <input name ="senhausuario" class="form-control" id="senhausuario" type="text">
+-->

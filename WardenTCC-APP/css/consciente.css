@@ -1,0 +1,17 @@
+html,
+body{
+  background: linear-gradient(180deg, #67a9cf, #65a8d1, #60a3d4, #5f9dd9, #6396dc, #6d8ddd, #7787dd, #7b84dc);
+  background: -webkit-linear-gradient(-90deg, #67a9cf, #65a8d1, #60a3d4, #5f9dd9, #6396dc, #6d8ddd, #7787dd, #7b84dc);
+  background-attachment: fixed;
+  overflow-x:hidden;
+}
+.main{
+  margin: 1rem;
+}
+.text,.h2{
+  color: white;
+  text-align: justify;
+}
+.lixo{
+  max-width: 66%;
+}
